@@ -24,7 +24,36 @@ VisionVoice is a privacy-first, offline-capable AI assistant that helps visually
 
 ## 📁 Folder Structure
 ```
-notebooks/, app/, models/, data/, outputs/
+VisionVoice/
+│
+├── data/                          # Sample images or external input files
+│   ├── sample1.jpg
+│   └── ...
+│
+├── models/                        # Local model folders (Vosk, Gemma, etc.)
+│   └── vosk-model-small-en-us-0.15/
+│
+├── notebooks/                     # Jupyter notebooks for step-by-step development
+│   ├── 1_OCR_Text_Extraction.ipynb
+│   ├── 2_Image_Captioning.ipynb
+│   ├── 3_Text_Cleaning_and_Merge.ipynb
+│   ├── 4_Text_to_Speech.ipynb
+│   ├── 5_Check_Demo.ipynb
+│   ├── 6_Offline_TTS_pyttsx3.ipynb
+│   └── 7_webcam_input_and_offline_tts.ipynb
+│
+├── app/                           # Streamlit app scripts and resources
+│   └── streamlit_app.py
+│
+├── outputs/                       # Generated audio, text, and PDF outputs
+│   ├── image_1_description.txt
+│   ├── webcam_description.txt
+│   ├── visionvoice_history.txt
+│   └── visionvoice_history.pdf
+│
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project overview and instructions
+└── technical_writeup.md          # Architecture, features, model usage, etc.
 ```
 
 ## 🛠️ Run the Streamlit App
