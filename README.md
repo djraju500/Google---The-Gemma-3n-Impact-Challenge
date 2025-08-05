@@ -35,6 +35,10 @@ streamlit run app/streamlit_app.py
 
 ## ✅ Requirements
 
+Download the tesseract and vosk models. Save this files in models folder
+1. https://github.com/tesseract-ocr/tesseract
+2. https://alphacephei.com/vosk/models
+   
 Install all required dependencies:
 
 ```bash
