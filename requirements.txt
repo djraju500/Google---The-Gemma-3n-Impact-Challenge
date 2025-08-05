@@ -1,0 +1,11 @@
+streamlit
+pytesseract
+transformers
+torch
+pyttsx3
+Pillow
+vosk
+opencv-python
+sounddevice
+scipy
+fpdf
